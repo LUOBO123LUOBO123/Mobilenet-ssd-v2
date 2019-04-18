@@ -1,0 +1,9 @@
+1.frozen_inference_graph.pb is my model.
+
+2.ssd_mobilenet_v2_quantized_300x300_coco.config is my config of train.
+
+3.I convert frozen_inference_graph.pb to v2_cn_graph.pb by ../dnn/convert.py.
+
+4.I convert pb to pbtxt by ../dnn/tf_text_graph_ssd.py
+
+5.cv_demo.py detect object apper Segmentation fault (core dumped)
